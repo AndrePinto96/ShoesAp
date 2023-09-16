@@ -226,6 +226,7 @@ fieldset {
 .tamaño-formu{
     font-size: 23px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:cover;
 }
 select{
     font-size: 17px;
