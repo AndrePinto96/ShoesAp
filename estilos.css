@@ -1,0 +1,234 @@
+
+
+.title-box {
+  background-color:white;
+  border: 4% solid #d6d6d6;
+  padding: 10px;
+  text-align:center;
+  font-size: 36px;
+  font-weight:bolder;
+  opacity: 15px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+.corner-image {
+  position:relative; /* Posición absoluta */
+  top: 0; /* Colocar en la parte superior */
+  right:1%; /* Colocar en la esquina derecha */
+  width: 10%; /* Ancho de la imagen */
+  height: 15%; /* Alto de la imagen */
+  padding: 30px 30px;
+  margin-right: 0.01%;
+  display: flex; /* Utiliza el modelo de caja flexible para alinear los logotipos en línea */
+  align-items: center; /* Centra verticalmente los logotipos */
+  width: 100px; /* Ancho deseado para los logotipos */
+  margin-right: 10px; /* Espacio entre los logotipos (ajusta según sea necesario) */
+  right:10%;
+}
+
+.letra{
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  position:absolute;
+  
+}
+
+fieldset{
+  background:white;
+  width: 1000px;
+}
+
+legend {
+  font-size: 20px; /* Cambiar el tamaño de la fuente */
+  margin-bottom: 0.5px; /* Agregar un margen inferior */
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  padding: 0px;
+  
+  
+}
+
+    .navbar {
+        
+        overflow:auto;
+      }
+      
+      /* Estilo para enlaces de barra de navegación */
+      .navbar a {
+        float: left;
+        display: block;
+        color:black;
+        text-align:center;
+        padding: 10px ;
+        padding-left: 15px;
+        padding-right: 0px;
+        
+        
+        text-decoration:underline;
+        font-size: 25px;
+        font-style: italic;
+      }
+      
+      /* Cambiar el color de los enlaces de la barra de navegación cuando se pasa el cursor sobre */
+      .navbar a:hover {
+        background-color:rgb(115, 146, 231);
+        color: black;
+      }
+      .search-container {
+      
+        text-align:right;
+        margin-top: 10px;
+      }
+      
+      .search-box {
+        padding: 10px;
+        border: 1px solid #858282;
+        border-radius: 5px;
+        width: 300px;
+      }
+      
+      .search-button {
+        background-color: #969696;
+        color: white;
+        border: none;
+        padding: 10px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }  
+
+      .imagen{
+        width: 100%;
+        height: 650px;
+      }
+
+      /* Estilos CSS aquí */
+  .image-container {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%; /* Para que la imagen ocupe todo el espacio disponible */
+    height: 100%; /* Para que la imagen ocupe todo el espacio disponible */
+    object-fit: cover;
+    padding: 20px;
+  }
+  
+  .video{
+    width: 1800px;
+    height: 650px;
+    text-align: center;
+    padding-bottom: 5%;
+
+    
+
+  }
+  .transparent-box {
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo transparente (aquí se usa blanco) */
+    opacity: 0.8%; /* Opacidad general del cuadro */
+    padding: 0px; /* Espaciado interno del cuadro */
+    border: 10% solid #03fa55; /* Borde del cuadro */
+    width: auto;
+    display: flex;
+  }
+  .image-box {
+    width: 200px;
+    border: 0.5px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .image-box img {
+    max-width:100%;
+    height: auto;
+  }
+
+   /* Agrega estilos aquí si es necesario */
+
+   body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.map-container {
+    position:relative;
+    width: 100%;
+    height: 700px;
+    opacity: 0.8; /* Ajusta el valor de opacidad aquí */
+    font-style: inherit; 
+    margin-top: 20px
+    
+ 
+}
+
+/* Estilos para el salto entre líneas grande */
+.salto-linea-grande {
+  height:max-content; /* Altura deseada para el espacio entre líneas */
+  padding-bottom: 30%;
+  
+
+}
+
+
+
+.transparent-box {
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo transparente (aquí se usa blanco) */
+    opacity: 0.9; /* Opacidad general del cuadro */
+    padding: 20px; /* Espaciado interno del cuadro */
+    border: 1px solid #ccc; /* Borde del cuadro */
+  }
+
+ .tamañoimg{
+    width: 100%;
+    height: 300px;
+    display: flex;
+ } 
+ 
+ .column-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    display: flex;
+    justify-content: flex-start; /* Alinea las columnas a la izquierda */
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.slider-container{
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+.slider{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slider img{
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+/*.column {
+    padding: 15px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+} */
+
+/*.banner {
+  background-color: #3498db; /* Color de fondo del banner */
+  /*color: #ffffff;  Color del texto en el banner */
+  /* padding: 20px; /* Espacio interno en el banner */
+ /* text-align: center; /* Alineación del texto en el centro 
+} */

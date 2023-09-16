@@ -1,0 +1,248 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; /* 1rem = 10px*/
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 2;
+    margin: 0;
+}
+
+/* Global */
+body {
+    background-image: url(https://files.cults3d.com/uploaders/15233766/illustration-file/1eed0015-b833-4838-b577-1785b9c96a35/1.jpg);
+    opacity: 15;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+/* Utilidades */
+.transparent-box {
+    
+    opacity: 0.9; /* Opacidad general del cuadro */
+}
+.border {
+    border: 0.1rem solid #ccc;
+}
+.text-center {
+    text-align: center;
+}
+/* Header */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.header h1 {
+    font-size: 4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+.navbar {
+    display: flex;
+    gap: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+.header-franquicias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-franquicias h3 {
+    font-size: 3.5rem;
+}
+/* Banner */
+.banner{
+    
+    height: 3rem;
+}
+/* Productos */
+.productos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3rem;
+}
+.jordan-converse{
+    font-size: 1.8rem;
+    display: flex;
+    
+    
+    
+}
+.image-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-box img {
+    height: 25rem;
+    width: 25rem;
+    object-fit: contain;
+    
+}
+.image-box a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.enlace-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Jordan */
+.jordan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.jordan img {
+    height: 20rem;
+}
+.jordan video {
+    width: 100%;
+}
+/* Converse */
+.converse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+}
+.converse img {
+    height: 30rem;
+}
+/*imagenes-hombre-mujer*/
+.imagenes-hombre-mujer {
+    display: flex;
+    padding: 0;
+}
+.imagenes-hombre-mujer img {
+    height: 60rem;
+}
+/* Footer */
+.footer {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 5rem;
+    text-align: center;
+    padding: 10px;
+}
+.column-footer {
+    display: flex;
+    flex-direction: column;
+    
+}
+.column-footer a{
+    color: black;
+}
+
+
+/* Estilos generales para los botones de redes sociales */
+.redes-sociales {
+    text-align: end;
+    margin-top: 20px;
+    
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Estilos para icono de Facebook */
+.icono-facebook {
+    background-color: #1877F2;
+}
+
+/* Estilos para icono de Twitter */
+.icono-twitter {
+    background-color: #1DA1F2;
+}
+
+/* Estilos para icono de Instagram */
+.icono-instagram {
+    background-color: #E4405F;
+}
+.subir{
+	background-color: black;
+	color: white
+}
+
+/* Efecto de transición al pasar el mouse sobre los botones */
+.redes-sociales a:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el mouse */
+    transform: scale(1.1); /* Agranda ligeramente el botón */
+}
+.slider-container{
+    display: flex;
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+fieldset {
+        margin: 40rem; /* Márgenes alrededor del formulario */
+        margin-top: 2rem;
+        border: 2px solid #333; /* Borde de 2px de ancho y color negro (#333) */
+        padding: 5rem; /* Espacio interno dentro del formulario */
+        padding-left: 10rem;
+        padding-right: 5rem;
+        padding-top: 0rem;
+        padding-bottom: 0.1rem;
+        text-align:justify;
+}
+.tamaño-formu{
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+select{
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.centrar{
+    text-align: center;
+    font-size: 2rem;
+}
+.volver{
+    text-align: end;
+    
+}
+.a{
+    color: black;
+}
