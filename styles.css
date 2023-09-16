@@ -247,3 +247,15 @@ input{
 .a{
     color: black;
 }
+@media (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas, como móviles */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para tabletas */
+}
+
+@media (min-width: 1025px) {
+  /* Estilos para computadoras de escritorio */
+}
+
